@@ -1,0 +1,152 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: monaco;
+	box-sizing: border-box;
+}
+
+
+
+
+.contenido{
+	width: 100%;
+
+
+}
+
+ul.listanime{
+	list-style: none;
+	width: 100%;
+	
+}
+
+li.blo{
+
+	display: inline-block;
+	padding: 10px 5px 0; 
+	transform: translate(30%);
+	width: 15%;
+	height: 300px;
+}
+
+
+
+	
+article.anime_alt_b{
+	width: 100%;
+	height: 80%;
+}
+
+
+
+
+div.img_play{
+	width: 100%;
+	height: 100%;
+	border-radius: 10px;
+	background:#EA9E27;
+}
+
+
+
+
+div.img_play img{
+	
+	width: 100%;
+	height: 100%;
+	border-radius: 10px;
+	padding: 0px 0px 3px 5px;	
+}
+
+div.img_play img:hover{
+	 filter:   sepia(0.3) hue-rotate(2deg) saturate(150%);}
+
+
+
+
+
+
+
+h3.titlet{
+	font-size: 18px;
+	line-height: 100%;
+	text-align: center;
+	color: #000;
+}
+
+a{
+	text-decoration: none;
+}
+
+/*  Descripcion despegable   */
+
+
+
+li.blo:nth-last-child(6n) div.description{
+    left: -75%;
+}
+
+div.description  {
+    width: 260px;
+    left: -250px;
+    top: -15px;
+    background-color: #3b4348;
+    box-shadow: 0 0 20px rgb(0 0 0 / 50%);
+    padding: 15px;
+    color:#D4DDE1;
+    position: absolute;
+    visibility: hidden;
+    text-align: justify;
+    transition: 0.1s;
+    border-radius: 10px;
+}
+
+
+li.blo:hover div.description{
+	transition-delay: 0.1s;
+	visibility: visible;
+
+
+
+}
+
+
+
+
+strong{
+	font-size: 22px;
+	color: #fff;
+}
+
+
+span.type_tv{
+	font-size: 19px;
+	padding: 3px;
+	border-radius: 10px;
+	background: #36B5D7;
+	color: #fff;
+	font-weight: 700;
+
+}
+
+span.not_star{
+font-size: 20px;
+padding-left:  10px;
+color: #fff;
+font-weight: 700;
+}
+
+p{
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+span.epi{
+	border-radius: 10px;
+	font-size: 16px;
+    padding: 5px;
+	color: #fff;
+	background: #4C555B;
+	float: right;
+}
+

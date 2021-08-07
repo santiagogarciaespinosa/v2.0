@@ -1,0 +1,53 @@
+/* menu */
+
+{
+    margin:0;
+    padding:0;
+    font-family: monaco;
+    box-sizing:border-box;
+ 
+   
+  }  
+
+
+
+
+
+nav a{
+      text-decoration:none;
+      color:inherit;
+      font-size:16px;
+      line-height: 29px;
+      }
+            
+nav li {
+      display:inline-block;
+      width:155px;
+      height:35px;
+      text-align:center;
+      color:#000;
+           position:relative;
+           
+}
+            
+nav li:hover{
+      background-color:#4545;
+      color:#fff;
+      padding-top: 0.5px;
+      box-shadow: 0px 4px 0px rgba(0,0,0,.7);
+      transition: 0.3s;
+      }
+            
+nav li>ul{
+      display:none;
+      background: rgba(206, 221, 255, 0.80);
+      }
+
+nav li:hover>ul{
+      display:block;
+      position:absolute;
+      top:32px;
+      left:0px;
+      transition: 0.7ms;
+
+      }
